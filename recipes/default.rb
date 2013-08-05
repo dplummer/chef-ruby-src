@@ -11,7 +11,7 @@
 
 
 packages = value_for_platform_family(
-             "rhel" => ["openssl-devel","zlib-devel","readline-devel", "libyaml-devel"],
+             "rhel" => ["openssl-devel","zlib-devel","readline-devel"],
              "default" => ["libssl-dev","zlib1g-dev","libreadline-dev", "libyaml-dev"]
            )
 
